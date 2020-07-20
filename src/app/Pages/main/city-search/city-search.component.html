@@ -1,0 +1,16 @@
+<div class="container my-5">
+  <form class="form-inline">
+    <input
+      class="form-control search fas fa-search primary"
+      type="text"
+      name="search"
+      placeholder="&#xf002;  Tel Aviv"
+      [(ngModel)]="text$"
+      [ngbTypeahead]="search"
+      (input)="getCities()"
+      (selectItem)="citySelected($event)"
+      [resultFormatter]="formatter"
+      [inputFormatter]="formatter"
+    />
+  </form>
+</div>

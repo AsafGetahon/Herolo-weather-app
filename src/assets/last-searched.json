@@ -1,0 +1,51 @@
+[
+  {
+    "Key": "215854",
+    "LocalizedName": "Tel Aviv",
+    "Country": {
+      "LocalizedName": "Israel"
+    }
+  },
+  {
+    "Key": "215855",
+    "LocalizedName": "Holon",
+    "Country": {
+      "LocalizedName": "Israel"
+    }
+  },
+  {
+    "Key": "215856",
+    "LocalizedName": "New-York",
+    "Country": {
+      "LocalizedName": "United States"
+    }
+  },
+  {
+    "Key": "215857",
+    "LocalizedName": "London",
+    "Country": {
+      "LocalizedName": "United Kingdom"
+    }
+  },
+  {
+    "Key": "107487",
+    "LocalizedName": "Bogota",
+    "Country": {
+      "LocalizedName": "Colombia"
+    }
+  },
+  {
+    "Key": "207375",
+    "LocalizedName": "Baghdad",
+    "Country": {
+      "LocalizedName": "Iraq"
+    }
+  },
+  {
+    "Key": "1123655",
+    "LocalizedName": "Hong Kong",
+    "Country": {
+      "LocalizedName": "Hong Kong"
+    }
+  }
+]

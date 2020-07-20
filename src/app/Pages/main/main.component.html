@@ -1,0 +1,21 @@
+<app-city-search (cityKey)="onKeyChange($event)"></app-city-search>
+
+<div class="container">
+  <div class="d-flex justify-content-left">
+    <app-weather *ngIf="weather$ | async as weather" [weather]="weather">
+    </app-weather>
+  </div>
+
+  <div
+    class="row d-flex justify-content-around animated fadeInDown"
+    data-wow-delay="0.6s"
+    *ngIf="weather$ | async as weather"
+  >
+    <app-forcast
+      class="col-md"
+      *ngFor="let day of weather?.forecast?.DailyForecasts"
+      [weather]="day"
+    >
+    </app-forcast>
+  </div>
+</div>

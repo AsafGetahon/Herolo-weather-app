@@ -1,0 +1,23 @@
+<div class="card border-success mb-3" style="max-width: 20rem;">
+  <div class="card-header">
+    <h5>{{ weather.Date | date: "EEEE" }}</h5>
+  </div>
+  <div class="card-body">
+    <h4 class="card-title">Day</h4>
+    <img
+      class="animated swing infinite slower"
+      src="assets/icons/{{ weather.Day.Icon }}.png"
+    />
+    <p class="card-text">{{ weather.Day.IconPhrase }}</p>
+    <h4 class="card-title">Night</h4>
+    <img
+      class="animated swing infinite slower"
+      src="assets/icons/{{ weather.Night.Icon }}.png"
+    />
+    <p class="card-text">{{ weather.Night.IconPhrase }}</p>
+    <p class="card-text"></p>
+    <a href="{{ weather.Link }}" target="_blank" class="link"
+      >See more details</a
+    >
+  </div>
+</div>

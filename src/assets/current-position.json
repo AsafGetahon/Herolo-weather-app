@@ -1,0 +1,48 @@
+[
+  {
+    "LocalObservationDateTime": "2019-09-27T15:30:00+03:00",
+    "EpochTime": 1569587400,
+    "WeatherText": "Suuunny in RY",
+    "WeatherIcon": 1,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": true,
+    "Temperature": {
+      "Metric": {
+        "Value": 30.5,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 87,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://m.accuweather.com/en/il/kafr-qasim/212532/current-weather/212532?lang=en-us",
+    "Link": "http://www.accuweather.com/en/il/kafr-qasim/212532/current-weather/212532?lang=en-us"
+  },
+  {
+    "LocalObservationDateTime": "2019-09-27T15:30:00+03:00",
+    "EpochTime": 1569587400,
+    "WeatherText": "Sunny in TA",
+    "WeatherIcon": 1,
+    "HasPrecipitation": false,
+    "PrecipitationType": null,
+    "IsDayTime": true,
+    "Temperature": {
+      "Metric": {
+        "Value": 30.2,
+        "Unit": "C",
+        "UnitType": 17
+      },
+      "Imperial": {
+        "Value": 86,
+        "Unit": "F",
+        "UnitType": 18
+      }
+    },
+    "MobileLink": "http://m.accuweather.com/en/il/tel-aviv/215854/current-weather/215854?lang=en-us",
+    "Link": "http://www.accuweather.com/en/il/tel-aviv/215854/current-weather/215854?lang=en-us"
+  }
+]

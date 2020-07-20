@@ -1,0 +1,32 @@
+<div
+  class="card text-white bg-success mb-3"
+  style="max-width: 20rem;"
+  *ngIf="weather$ | async as weather"
+>
+  <div class="card-header" *ngIf="city$ | async as city">
+    Current weather
+    <div class="card-body">
+      <h4 class="card-title" *ngIf="city$ | async as city">
+        {{ city.LocalizedName }}
+      </h4>
+      <img
+        class="animated swing infinite slower"
+        src="assets/icons/{{ (weather?.weather)[0]?.WeatherIcon }}.png"
+      />
+      <!-- <p class="card-text">{{ (weather?.weather)[0]?.WeatherText }}</p>
+      <p class="card-text" *ngIf="isMetric$ | async">
+        {{ weather.weather[0].Temperature.Metric.Value }}
+        {{ weather.weather[0].Temperature.Metric.Unit }}
+      </p>
+      <p class="card-text" *ngIf="!(isMetric$ | async)">
+        {{
+          ((weather.weather[0].Temperature.Metric.Value * 9) / 5 + 32).toFixed(
+            2
+          )
+        }}
+        {{ weather.weather[0].Temperature.Imperial.Unit }}
+      </p> -->
+      <p class="card-text"></p>
+    </div>
+  </div>
+</div>
